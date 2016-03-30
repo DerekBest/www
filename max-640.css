@@ -1,0 +1,109 @@
+@charset "utf-8";
+header {
+	height: 204px;
+}
+header h1, header sub {
+	text-align: center;
+	width: 100%;
+}
+header h1 {
+	margin: 13px 0 0 0;
+	padding: 0;
+	font-size: 1.5em;
+	line-height: 1.6em;
+}
+header sub {
+	position: absolute;
+	bottom: 12px;
+	padding: 0;
+	margin: 0;
+	font-size: 2em;
+	height: 47px;
+	line-height: 1.7em;
+}
+nav {
+	top: 63px;
+}
+nav ul {
+	margin: 0 auto;
+	text-align: center;
+}
+nav ul li a:link, nav ul li a:visited {
+	font-size: 1.2em;
+}
+#thumbDesc-1, #thumbDesc-2, #thumbDesc-3, #thumbDesc-4, #thumbDesc-5, #thumbDesc-6, #thumbDesc-7, #thumbDesc-8 {
+	bottom: .5em;
+	left: .5em;
+	right: .5em;
+	width: auto;
+	text-align: center;
+}
+ul.icons {
+	list-style-type: none;
+	margin: 5px atuo 0 auto;
+	padding: 0;
+}
+.ihsSmThumb img {
+	width: 92.5px;
+	height: 92.5px;
+}
+.ihsBthumb img {
+	width: 182px;
+	height: 193.5px;
+}
+.toolList {
+	margin: 1em;
+	padding: 10px 10px 0 10px;
+}
+.toolList li {
+	margin: 0 0 10px 0;
+	padding: 0 0.5em 0 0;
+}
+section > h2 {
+	text-align: center;
+}
+section#about p, section#about h3, section#about h4 {
+	margin-right: 1em;
+	margin-left: 1em;
+}
+.profilePic img {
+	width: 100.5px;
+	height: 123.5px;
+}
+.floatShim {
+	width: 150px;
+	height: 105px;
+}
+article.fullBox {
+	padding: 1em 0;
+}
+.experience {
+	margin: 0 1em;
+}
+ul.expBox {
+	-webkit-flex-flow: column;
+	-ms-flex-flow: column;
+	flex-flow: column;
+	flex-direction: column;
+}
+ul.expBox li {
+	margin: .5em 0;
+}
+.eduTable {
+	margin-right: 1em;
+	margin-left: 1em;
+}
+form {
+	margin: 0;
+	padding: 1em;
+	width: auto;
+}
+input, textarea {
+	padding: .5em 0;
+	margin: 0 0 10px 0;
+	width: 100%;
+	border: none;
+}
+.submitBtn {
+	width: 100%;
+}
